@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing Node 16.x again...
+      - echo Installing Node 16.x again 123...
       - curl -sL https://deb.nodesource.com/setup_16.x | bash -
       - apt install -y nodejs
       - echo Installing Yarn again...
@@ -12,7 +12,7 @@ phases:
       - apt install --no-install-recommends yarn
   pre_build:
     commands:
-      - echo Installing dependencies again...
+      - echo Installing dependencies again 456...
       - yarn
   build:
     commands:
