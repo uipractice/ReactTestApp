@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Evoke Technologies - React App - 05/03/2023
+          Evoke Technologies - React App - 06/03/2023
         </p>
         <a
           className="App-link"
